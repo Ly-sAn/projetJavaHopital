@@ -8,15 +8,23 @@ public class Hopital {
     String nom;
     String adresse;
     String specialite;
-    List<String> listeHopital = new LinkedList<>();
 
+    public String getNom() {
+        return nom;
+    }
+
+    public String getAdresse() {
+        return adresse;
+    }
+
+    public String getSpecialite() {
+        return specialite;
+    }
 
     public Hopital(String nom, String adresse, String specialite) {
         this.nom = nom;
         this.adresse = adresse;
         this.specialite = specialite;
     }
-
-
 
 }
